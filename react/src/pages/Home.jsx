@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import Banner from "../components/banner/banner";
+import Banner from "../components/banner/Banner";
 import MovieList from "../components/movieLists/MovieList";
-import BestSeries from "../components/movieLists/bestSeries";
+import BestSeries from "../components/movieLists/BestSeries";
 import { fetchMovies } from "../slicer/movieSlice";
 
 const Home = () => {
