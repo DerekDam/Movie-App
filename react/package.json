@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run dev",
-    "start": "npm run dev",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite",           
+    "build": "vite build",   
+    "lint": "eslint .",       
+    "preview": "vite preview" 
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
