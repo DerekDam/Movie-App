@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-item {
+  filter: brightness(50%);
+  @apply transition-all duration-500 backdrop:ease-in-out placeholder:transition-transform cursor-pointer;
+}
+
+.image-item:hover {
+  filter: brightness(100%);
+  @apply hover:scale-110;
+}

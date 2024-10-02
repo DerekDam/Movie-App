@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-li {
+  @apply cursor-pointer h-10 w-28 rounded-xl items-center flex justify-center font-regular;
+  @apply hover:bg-yellow-500/80 text-gray-700 transition ease-in-out duration-300;
+}
